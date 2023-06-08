@@ -1,0 +1,166 @@
+/* Text colors */
+.text-primary {
+    color: #28a745;
+}
+/*  */
+.text-secondary {
+    color: #0284d0;
+}
+
+/* Button */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+/* solutions sections adding background color */
+.btn-primary, .bg-primary {
+   background: #28a745;
+   color: #fff;
+}
+/* solutions sections adding background color */
+.btn-secondary, .bg-secondary {
+   background: #0284d0;
+   color: #fff;
+}
+/* solutions sections adding background color */
+.btn-dark, .bg-dark {
+   background: #333;
+   color: #fff;
+}
+/* solutions sections adding background color */
+.btn-light, .bg-light {
+   background: #f4f4f4;
+   color: #333;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+/* Flex items icons*/
+.flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 20px;
+}
+
+/* FLEX COLUMNS */
+/* #1 */
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* #2 */
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    /* takes up entire height */
+    flex: 1;
+}
+/* add backgound colors tp btn primary, secondary, and dark */
+/* #3 */
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+    height: 100%;
+}
+
+/* From the blog section */
+
+/* #8 blog section */
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse
+}
+
+/* #4 */
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    /* fixes stretched out images when the vp changes */
+    object-fit: cover;
+}
+
+/* #5 */
+.flex-columns .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* #6 */
+.flex-columns h2 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+/* #7 */
+.flex-columns h4 {
+    margin-bottom: 10px;
+}
+/* # 8 */
+.flex-columns p {
+    margin: 20px 0;
+}
+/* **go up to the buttons utils to add stylings: btn outline */
+
+/* SECTION HEADER */
+
+/* #1 */
+.section-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* #2 */
+.section-header h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+/* #3 */
+.section-padding {
+    padding: 20px 20px 40px;
+}
+
+/* FLEX GRID */
+
+/* #1 */
+.flex-grid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* #2 */
+.flex-grid .column {
+    /* 4 images across 25% for the entire vp */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+/* GO UP TO FLEX-COLUMNS #8*/
